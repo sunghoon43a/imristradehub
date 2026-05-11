@@ -1080,7 +1080,7 @@
       
             const response = await $.ajax({
               type: "GET",
-              url: `https://imristradehub-render-hy1c.onrender.com/users/owner/${userFromLS.email}`,
+              url: `https://imristradehub-render-t625.onrender.com/users/owner/${userFromLS.email}`,
               dataType: "json",
               timeout: 30000,
               success: async function (data) {
@@ -1114,7 +1114,7 @@
         console.log(dataObj);
         const response = await $.ajax({
           type: "POST",
-          url: `https://imristradehub-render-hy1c.onrender.com/transactions/${dataObj._id}/withdrawal`,
+          url: `https://imristradehub-render-t625.onrender.com/transactions/${dataObj._id}/withdrawal`,
           dataType: "json",
           timeout: 30000,
           data: dataObj,
